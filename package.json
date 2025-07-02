@@ -408,6 +408,11 @@
       "types": "./dist/types/helper/proxy/index.d.ts",
       "import": "./dist/helper/proxy/index.js",
       "require": "./dist/cjs/helper/proxy/index.js"
+    },
+    "./expo": {
+      "types": "./dist/types/adapter/expo/index.d.ts",
+      "import": "./dist/adapter/expo/index.js",
+      "require": "./dist/cjs/adapter/expo/index.js"
     }
   },
   "typesVersions": {
@@ -624,6 +629,9 @@
       ],
       "proxy": [
         "./dist/types/helper/proxy"
+      ],
+      "expo": [
+        "./dist/types/adapter/expo"
       ]
     }
   },
